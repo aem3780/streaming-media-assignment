@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming media HW",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aem3780/streaming-media-assignment.git"
+  },
+  "author": "Allie Maus",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/aem3780/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/aem3780/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
